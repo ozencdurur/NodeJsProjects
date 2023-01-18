@@ -14,7 +14,7 @@ const app = express();
 mongoose.set("strictQuery", true);
 mongoose
   .connect(
-    "mongodb+srv://ozencdurur:Oznc.2021@cluster0.t4wvea1.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://ozencdurur:<password>@cluster0.t4wvea1.mongodb.net/?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
