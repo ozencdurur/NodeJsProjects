@@ -11,7 +11,7 @@ const app = express();
 //connect DB
 mongoose
   .connect(
-    'mongodb+srv://ozencdurur:Oznc.2021@ozencdurur.cfoxour.mongodb.net/?retryWrites=true&w=majority',
+    'mongodb+srv://ozencdurur:<password>@ozencdurur.cfoxour.mongodb.net/?retryWrites=true&w=majority',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
